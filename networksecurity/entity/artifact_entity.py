@@ -1,5 +1,7 @@
 from dataclasses import dataclass
 
+#classes whose main job is to hold data
+
 @dataclass
 class DataIngestionArtifact:
     trained_file_path:str
